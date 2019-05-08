@@ -1,0 +1,1472 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* title-link */
+.title-link {
+  text-transform: uppercase;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.title-link:link {
+  color: #32323d;
+  text-decoration: none;
+}
+
+.title-link:visited {
+  color: #32323d;
+}
+
+.title-link:hover {
+  color: #2882bc;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.title-link:active {
+  color: #32323d;
+  transition: all 0.1s;
+}
+
+/* album-square */
+.album-square {
+  width: 152px;
+  height: 152px;
+  background-image: url('https://picsum.photos/200/300');
+  background-size: cover;
+  background-position: center;
+}
+
+.ai-phi {
+  background-image: url('../assets/nghe-gi-hom-nay/artworks-000238644062-47oil0-t500x500.jpg');
+}
+
+.dut-con-mua-nay  {
+  background-image: url('../assets/nghe-gi-hom-nay/maxresdefault.jpg');
+}
+
+.on-rainy-days {
+  background-image: url('../assets/nghe-gi-hom-nay/rain.png');
+}
+
+.sick-enough-to-die {
+  background-image: url('../assets/nghe-gi-hom-nay/1383712474923_500.jpg');
+}
+
+.ly-nhan-sau {
+  background-image: url('../assets/nghe-gi-hom-nay/lynhansau.png');
+}
+
+.bac-phan {
+  background-image: url('https://hocthoisao.com/wp-content/uploads/2019/04/56915799969051006819245861375808839614464o-15554314447101852564807.jpg');
+}
+
+.hong-nhan {
+  background-image: url('https://photo-zmp3.zadn.vn/cover/3/2/7/f/327f68099674128289ba8a2e98232d68.jpg');
+}
+
+.fiction {
+  background-image: url('https://zmp3-photo-fbcrawler.zadn.vn/covers/0/2/0254a87e4a09c9c37015f1cca79a64a0_1305601848.jpg');
+}
+
+.love-is-a-beautiful-pain {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQETfNJpy1CGpvRh9EehlKBV_vQNEVSojdUR9Hj8ESUcRWW2RTp');
+}
+
+.take-me-hand {
+  background-image: url('../assets/nghe-gi-hom-nay/takemehand.png');
+}
+
+.album-square .overlay {
+  background-image: linear-gradient(179.6deg, rgba(69, 181, 170, 0.2) 12.3%, rgba(0, 0, 0, 0.5) 90.8%);
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.album-square .overlay .icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -15%;
+  margin-top: -15%;
+  transform: scale(0.2);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.album-square .overlay .icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.album-square .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.album-square .overlay:hover .icon {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+
+.album-square .overlay:active .icon {
+  transform: scale(0.5);
+  transition: all 0.1s;
+}
+
+.album-square .overlay .count {
+  font-size: 10px;
+  color: #fff;
+}
+
+.album-square .overlay .count .view-count {
+  background: linear-gradient(231deg, rgba(0, 0, 0, 0.3) 5%, rgba(62, 62, 83, 0.5956583316920518) 35%, rgba(55, 55, 55, 0) 80%);
+}
+
+/* fixed size album-square */
+@media (max-width: 414px) {
+  .album-square {
+    width: 124px;
+    height: 124px;
+  }
+
+  .album-square .overlay .icon {
+    margin-left: -20%;
+    margin-top: -20%;
+  }
+}
+
+@media (max-width: 375px) {
+  .album-square {
+    width: 118px;
+    height: 118px;
+  }
+}
+
+@media (max-width: 360px) {
+  .album-square {
+    width: 111px;
+    height: 111px;
+  }
+}
+
+@media (max-width: 320px) {
+  .album-square {
+    width: 91px;
+    height: 91px;
+  }
+
+  .album-square .overlay .icon {
+    margin-left: -21%;
+    margin-top: -21%;
+  }
+
+  .album-square .overlay .icon img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+
+/* topic-hot */
+.img-topic-hot {
+  width: 420px;
+  height: 152px;
+  overflow: hidden;
+  /* Removing this will break the effects */
+}
+
+.img-topic-hot .topic-hot {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://loremflickr.com/320/240');
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.img-topic-hot .nightcore-nightstep {
+  background-image: url('../assets/toppic-hot/asset 44.jpeg');
+}
+
+.img-topic-hot .cover-mashup {
+  background-image: url('../assets/toppic-hot/asset 15.jpeg');
+}
+
+.img-topic-hot .edm {
+  background-image: url('../assets/toppic-hot/asset 34.jpeg');
+}
+
+.img-topic-hot .house {
+  background-image: url('../assets/toppic-hot/asset 27.jpeg');
+}
+
+.img-topic-hot .topic-hot .overlay {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(105deg, rgba(0, 0, 0, 0.8) 0%, rgba(53, 144, 203, 0.3085609243697479) 100%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-topic-hot .topic-hot .overlay a {
+  font-size: 35px;
+  font-family: 'Staatliches', cursive;
+}
+
+.img-topic-hot .topic-hot .overlay a:link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.img-topic-hot .topic-hot .overlay a:visited {
+  color: #FFF;
+}
+
+.img-topic-hot .topic-hot:hover .overlay a {
+  transform: translate(0px, -10px);
+  transition: all 0.8s;
+}
+
+.img-topic-hot .topic-hot:hover {
+  transform: scale(1.2);
+}
+
+.img-topic-hot .topic-hot:active {
+  transform: scale(1);
+}
+
+/* mv-hot */
+.mv-hot {
+  width: 420px;
+  height: 230px;
+  background-image: url('https://picsum.photos/500/500');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.ly-ca-phe-ben-canh-cua-so {
+  background-image: url('../assets/mv-hot/1556007064425_268.jpg');
+}
+
+.she-want-love {
+  background-image: url('../assets/mv-hot/1557206791787_268.jpg');
+}
+
+/* uigradients.com */
+
+.mv-hot .overlay {
+  height: 100%;
+  background-image: linear-gradient(179.6deg, rgba(69, 181, 170, 0.2) 12.3%, rgba(0, 0, 0, 0.5) 90.8%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 7px;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  position: relative;
+  transition: all 0.4s;
+}
+
+.mv-hot .overlay .info {
+  flex-grow: 0.8;
+}
+
+.mv-hot .overlay .count {
+  height: 100%;
+  flex-grow: 0.2;
+}
+
+.mv-hot .overlay .count .time-count {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  background: linear-gradient(231deg, rgba(0, 0, 0, 0.3) 5%, rgba(62, 62, 83, 0.5956583316920518) 35%, rgba(55, 55, 55, 0) 80%);
+  font-size: 14px;
+  color: #FFF;
+}
+
+.mv-hot .overlay .play-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -7%;
+  margin-left: -7%;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.3s;
+}
+
+.mv-hot .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.mv-hot .overlay:hover .play-button {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+
+.mv-hot .overlay:active .play-button {
+  transform: scale(0.5);
+  transition: all 0.1s;
+}
+
+.mv-hot .overlay .count .view-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: linear-gradient(231deg, rgba(0, 0, 0, 0.3) 5%, rgba(62, 62, 83, 0.5956583316920518) 35%, rgba(55, 55, 55, 0) 80%);
+  font-size: 14px;
+  color: #FFF;
+}
+
+.mv-hot .overlay .info .title {
+  font-size: 21px;
+}
+
+.mv-hot .overlay .info .title a:link {
+  text-decoration: none;
+  color: #FFF;
+  text-transform: capitalize;
+  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.7);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.mv-hot .overlay .info .title a:visited {
+  color: #FFF;
+}
+
+.mv-hot .overlay:hover .info .title a {
+  color: #3590cb;
+  transition: all 0.5s;
+}
+
+.mv-hot .overlay:active .info .title a {
+  color: #fff;
+  transition: all 0.1s;
+}
+
+.mv-hot .overlay .info .singer {
+  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.7);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.mv-hot .overlay .info .singer a:link {
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.mv-hot .overlay .info .singer a:visited {
+  color: rgb(240, 240, 240);
+}
+
+/* mv-hot-mini */
+.mv-hot-mini {
+  width: 195px;
+  height: 109px;
+  background-image: url('https://picsum.photos/200/300');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.dau-co-ra-sao {
+  background-image: url('../assets/mv-hot/1555578918806.jpg');
+}
+
+.dung-yeu-nua-met-rui {
+  background-image: url('../assets/mv-hot/1555903067156_268.jpg');
+}
+
+.anh-phai-lam-sao {
+  background-image: url('../assets/mv-hot/1556269019184.jpg');
+}
+
+.bacphan-jack {
+  background-image: url('../assets/mv-hot/1557158949251_268.jpg');
+}
+
+.xuat-son {
+  background-image: url('https://i.ytimg.com/vi/7ZAY0M1bADU/maxresdefault.jpg');
+}
+
+.honeyComeBear {
+  background-image: url('https://i.ytimg.com/vi/8Kw5HUVh_lY/maxresdefault.jpg');
+}
+
+.ai-phi-mv {
+  background-image: url('https://ytimg.googleusercontent.com/vi/cBboMmo3_9Q/mqdefault.jpg');
+}
+
+.ly-nhan-sau-mv {
+  background-image: url('https://i.ytimg.com/vi/wuyWg-rgTTo/maxresdefault.jpg');
+}
+
+.gap-nguoi-dung-luc-mv {
+  background-image: url('https://i.ytimg.com/vi/_J8z_HzccJk/maxresdefault.jpg');
+}
+
+.mv-hot-mini .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -8%;
+  margin-left: -8%;
+  color: #FFF;
+  transform: scale(0.6);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.mv-hot-mini:hover .play-button {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: all 0.4s;
+}
+
+.mv-hot-mini:active .play-button {
+  transform: scale(0.6);
+  transition: all 0.2s;
+}
+
+.mv-hot-mini .overlay {
+  background-image: linear-gradient(179.6deg, rgba(69, 181, 170, 0.2) 12.3%, rgba(0, 0, 0, 0.5) 90.8%);
+  height: 100%;
+  transition: all 0.4s;
+}
+
+.mv-hot-mini .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.mv-hot-mini .overlay .count {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.mv-hot-mini .overlay .count .view-count {
+  flex-grow: 1;
+  font-size: 10px;
+  color: #FFF;
+}
+
+.mv-hot-mini .overlay .count .view-count .overlay-count {
+  background: linear-gradient(231deg, rgba(0, 0, 0, 0.3) 5%, rgba(62, 62, 83, 0.5956583316920518) 35%, rgba(55, 55, 55, 0) 80%);
+}
+
+.mv-hot-mini .overlay .count .time-count {
+  flex-grow: 0;
+  font-size: 10px;
+  color: #FFF;
+}
+
+.mv-hot-mini .overlay .count .time-count .overlay-count {
+  background: linear-gradient(231deg, rgba(0, 0, 0, 0.3) 5%, rgba(62, 62, 83, 0.5956583316920518) 35%, rgba(55, 55, 55, 0) 80%);
+}
+
+.mv-hot-mini .play-button img {
+  width: 30px;
+  height: 30px;
+}
+
+/* fix size mv-hot-mini*/
+@media (max-width: 495px) {
+  .mv-hot-mini {
+    width: 185.25px;
+    height: 103.55px;
+  }
+}
+
+@media (max-width: 414px) {
+  .mv-hot-mini {
+    width: 161.25px;
+    height: 100.55px;
+  }
+}
+
+@media (max-width: 411px) {
+  .mv-hot-mini {
+    width: 160.25px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  .mv-hot-mini {
+    width: 142px;
+    height: 85.55px;
+  }
+}
+
+@media (max-width: 360px) {
+  .mv-hot-mini {
+    width: 120px;
+    height: 72.55px;
+  }
+}
+
+@media (max-width: 320px) {
+  .mv-hot-mini {
+    width: 80px;
+    height: 52.55px;
+  }
+}
+
+
+/* new-song */
+.new-song {
+  font-size: 14px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  border-top: 1px solid #DDD;
+  padding: 6px;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.add-border-bottom {
+  border-bottom: 1px solid #DDD;
+}
+
+.new-song .avatar {
+  background-image: url('https://picsum.photos/200/300');
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+}
+
+.new-song .dung-nguoi-dung-thoi-diem {
+  background-image: url('https://image1.thegioitre.vn/2019/01/16/49948895_2174200539498000_8562130511323987968_n.jpg');
+}
+
+.new-song .dau-co-ra-sao {
+  background-image: url('../assets/newsong/daucorasao.png');
+}
+
+.new-song .anh-phai-lam-sao {
+  background-image: url('../assets/newsong/anhphailamsao.png');
+}
+
+.new-song .sick-enough-to-die {
+  background-image: url('../assets/nghe-gi-hom-nay/1383712474923_500.jpg');
+}
+
+.new-song .dut-con-mua-nay {
+  background-image: url('https://i.ytimg.com/vi/f_JC5KnVexg/maxresdefault.jpg');
+}
+
+.new-song .ly-nhan-sau {
+  background-image: url('../assets/newsong/lynhansau.png');
+}
+
+.new-song .ai-phi {
+  background-image: url('../assets/newsong/DeepinScreenshot_select-area_20190508190136.png');
+}
+
+.new-song .fiction {
+  background-image: url('https://nadayasminsite.files.wordpress.com/2015/06/wpid-beast___fiction_and_fact_by_j_beom-d48ltb5.png');
+}
+
+.new-song .info {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 48px;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.new-song .info .singer {
+  font-size: 13px;
+}
+
+.new-song .view-count {
+  font-size: 13px;
+  color: #888888;
+}
+
+.new-song .avatar .icon {
+  height: 100%;
+  fill: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.new-song .avatar .icon:hover {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.new-song .avatar .icon svg {
+  width: 25px;
+  height: 25px;
+  transform: scale(0.3);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.new-song .avatar:hover .icon svg {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.new-song .avatar:active .icon svg {
+  transform: scale(0.3);
+  transition: all 0.4s;
+}
+
+.new-song .info .title a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.new-song .info .title a:visited {
+  color: black;
+}
+
+.new-song .info .title a:hover {
+  color: #3590cb;
+  transition: all 0.3s;
+}
+
+.new-song .info .title a:active {
+  color: black;
+  transition: all 0.1s;
+}
+
+.new-song .info .singer a:link {
+  text-decoration: none;
+  color: #888888;
+}
+
+.new-song .info .singer a:visited {
+  color: #888888;
+}
+
+.new-song .info .singer a:hover {
+  color: #3590cb;
+  transition: all 0.3s;
+}
+
+.new-song .info .singer a:active {
+  color: #888888;
+  transition: all 0.1s;
+}
+
+/* top-singer */
+.container-top-singer {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.top-singer {
+  font-family: Arial, sans-serif;
+  width: 210px;
+  height: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 97%);
+}
+
+.top-singer .avatar {
+  padding: 20px 0 10px 0;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+.top-singer .avatar:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.top-singer .avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.top-singer .name a:link {
+  text-decoration: none;
+  color: #333333;
+}
+
+.top-singer .name a:visited {
+  color: #333333;
+}
+
+.top-singer .name a:hover {
+  color: #3590cb;
+  transition: all 0.3s;
+}
+
+.top-singer .name a:active {
+  color: #333333;
+  transition: all 0.1s;
+}
+
+/* bxh-song */
+.bxh-song {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #DDD;
+}
+
+.bxh-song .link-avatar {
+  text-decoration: none;
+}
+
+.bxh-song .link-avatar .avatar {
+  height: 100px;
+  width: 100px;
+  background-image: url('https://picsum.photos/200/300');
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.bxh-song .link-avatar .ai-phi {
+  background-image: url('../assets/nghe-gi-hom-nay/artworks-000238644062-47oil0-t500x500.jpg');
+}
+
+.bxh-song .link-avatar .avatar .overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  transition: all 0.5s;
+  opacity: 0;
+  position: relative;
+}
+
+.bxh-song .link-avatar .avatar .overlay .play-button svg {
+  fill: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20%;
+  margin-left: -20%;
+  transform: scale(0.5);
+  transition: all 0.5s;
+}
+
+.bxh-song .link-avatar .avatar:hover .overlay .play-button svg {
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+.bxh-song .link-avatar .avatar:active .overlay .play-button svg {
+  transform: scale(0.5);
+  transition: all 0.2s;
+}
+
+.bxh-song .link-avatar .avatar:hover .overlay {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.bxh-song .link-avatar .avatar .number {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  color: #FFF;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #3590cb;
+  position: absolute;
+}
+
+.bxh-song .info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  justify-content: flex-start;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.bxh-song .info .title {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding: 5px 0 1px;
+}
+
+.bxh-song .info .title a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.bxh-song .info .title a:hover {
+  color: #3590cb;
+  transition: all 0.5s;
+}
+
+.bxh-song .info .title a:active {
+  color: rgb(0, 0, 0);
+  transition: all 0.1s;
+}
+
+.bxh-song .info .singer {
+  font-size: 13px;
+  padding: 1px 0 2px;
+}
+
+.bxh-song .info .singer a:link {
+  color: #888888;
+  text-decoration: none;
+}
+
+.bxh-song .info .singer a:visited {
+  color: #888888;
+}
+
+.bxh-song .info .singer a:hover {
+  color: #3590cb;
+  transition: all 0.5s;
+}
+
+.bxh-song .info .singer a:active {
+  color: #888888;
+  transition: all 0.2s;
+}
+
+.bxh-song .info .view-count {
+  font-size: 12px;
+  color: #888888;
+}
+
+.bxh-song .info .view-count a:link {
+  text-decoration: none;
+  color: #888888;
+}
+
+.bxh-song .info .view-count a:visited {
+  color: #888888;
+}
+
+.bxh-song .info .view-count a:hover {
+  color: #3590cb;
+  transition: all 0.3s;
+}
+
+.bxh-song .info .view-count a:active {
+  color: #888888;
+  transition: all 0.2s;
+}
+
+/* chart-item-song */
+.chart-item-song {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #DDD;
+  padding: 13px 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.chart-item-song .number {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.chart-item-song .info {
+  text-transform: capitalize;
+  flex-grow: 1;
+}
+
+.chart-item-song .info .singer {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #888888;
+}
+
+.chart-item-song .info .title-song {
+  font-size: 15px;
+}
+
+.chart-item-song .view-count {
+  font-size: 13px;
+  color: #888888;
+  padding: 15px;
+}
+
+.chart-item-song .info .singer a:link {
+  color: #888888;
+  text-decoration: none;
+}
+
+.chart-item-song .info .singer a:visited {
+  color: #888888;
+}
+
+.chart-item-song .info .singer a:hover {
+  color: #3590cb;
+  transition: all 0.3s;
+}
+
+.chart-item-song .info .singer a:active {
+  color: #888888;
+  transition: all 0.1s;
+}
+
+.chart-item-song .info .title-song a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.chart-item-song .info .title-song a:visited {
+  color: black;
+}
+
+.chart-item-song .info .title-song a:hover {
+  color: #3590cb;
+  transition: all 0.3s;
+}
+
+.chart-item-song .info .title-song a:active {
+  color: black;
+  transition: all 0.1s;
+}
+
+/* album-hot */
+.album-hot {
+  height: 230px;
+  width: 420px;
+  overflow: hidden;
+}
+
+.album-hot .img {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://picsum.photos/500/500');
+  background-size: cover;
+  background-position: center;
+}
+
+.album-hot .ly-ca-phe-ben-canh-cua-so {
+  background-image: url('../assets/mv-hot/1556007064425_268.jpg');
+}
+
+.album-hot .img .overlay {
+  background-image: linear-gradient(179.6deg, rgba(69, 181, 170, 0.2) 12.3%, rgba(0, 0, 0, 0.5) 90.8%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  transition: all 0.4s;
+}
+
+.album-hot .img .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.album-hot .img .overlay .info {
+  padding: 15px;
+}
+
+.album-hot .img .overlay .play-button svg {
+  width: 80px;
+  height: 80px;
+  fill: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10%;
+  margin-left: -10%;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.5s;
+}
+
+.album-hot .img .overlay:hover .play-button svg {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+.album-hot .img .overlay:active .play-button svg {
+  transform: scale(0.6);
+  transition: all 0.2s;
+}
+
+.album-hot .img .overlay .info .title {
+  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.7);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: capitalize;
+  font-size: 21px;
+}
+
+.album-hot .img .overlay .info .title a {
+  text-decoration: none;
+}
+
+.album-hot .img .overlay .info .title a:link {
+  color: #FFF;
+}
+
+.album-hot .img .overlay .info .title a:visited {
+  color: #FFF;
+}
+
+.album-hot .img .overlay:hover .info .title a {
+  color: #3590cb;
+  transition: all 0.4s;
+}
+
+.album-hot .img .overlay:active .info .title a {
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.album-hot .img .overlay .info .singer {
+  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.7);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.album-hot .img .overlay .info .singer a:link {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+.album-hot .img .overlay .info .singer a:visited {
+  color: #f3f3f3;
+}
+
+/* album-hot-mini */
+.container-album-hot-mini {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.album-hot-mini {
+  height: 111px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.album-hot-mini .img {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://picsum.photos/500/500');
+  background-size: cover;
+  background-position: center;
+}
+
+.album-hot-mini .xuat-son {
+  background-image: url('https://i.ytimg.com/vi/7ZAY0M1bADU/maxresdefault.jpg');
+}
+
+.album-hot-mini .ai-phi {
+  background-image: url('https://i.ytimg.com/vi/F5wdmupnPSg/maxresdefault.jpg');
+}
+
+.album-hot-mini .dut-con-mua-nay {
+  background-image: url('../assets/nghe-gi-hom-nay/maxresdefault.jpg');
+}
+
+.album-hot-mini .ly-nhan-sau {
+  background-image: url('https://i.ytimg.com/vi/wuyWg-rgTTo/maxresdefault.jpg');
+}
+
+.album-hot-mini .img .overlay {
+  background-image: linear-gradient(179.6deg, rgba(69, 181, 170, 0.2) 12.3%, rgba(0, 0, 0, 0.5) 90.8%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  transition: all 0.4s;
+}
+
+.album-hot-mini .img .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.album-hot-mini .img .overlay .info {
+  padding: 6px;
+}
+
+.album-hot-mini .img .overlay .play-button svg {
+  width: 30px;
+  height: 30px;
+  fill: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10%;
+  margin-left: -10%;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.5s;
+}
+
+.album-hot-mini .img .overlay:hover .play-button svg {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+.album-hot-mini .img .overlay:active .play-button svg {
+  transform: scale(0.6);
+  transition: all 0.2s;
+}
+
+.album-hot-mini .img .overlay .info .title {
+  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.7);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+.album-hot-mini .img .overlay .info .title a {
+  text-decoration: none;
+}
+
+.album-hot-mini .img .overlay .info .title a:link {
+  color: #FFF;
+}
+
+.album-hot-mini .img .overlay .info .title a:visited {
+  color: #FFF;
+}
+
+.album-hot-mini .img .overlay:hover .info .title a {
+  color: #3590cb;
+  transition: all 0.4s;
+}
+
+.album-hot-mini .img .overlay:active .info .title a {
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.album-hot-mini .img .overlay .info .singer {
+  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.7);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+.album-hot-mini .img .overlay .info .singer a:link {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.album-hot-mini .img .overlay .info .singer a:visited {
+  color: #f7f7f7;
+}
+
+/* bxh-mv */
+.bxh-mv {
+  width: 420px;
+  height: 250px;
+  overflow: hidden;
+  padding: 18px 0;
+  border-top: 1px solid #DDD;
+}
+
+.bxh-mv .img {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://picsum.photos/400/300');
+  background-size: cover;
+  background-position: center;
+}
+
+.bxh-mv .ly-ca-phe-ben-canh-cua-so {
+  background-image: url('../assets/mv-hot/1556007064425_268.jpg');
+}
+
+.bxh-mv .img .overlay {
+  background-image: linear-gradient(179.6deg, rgba(69, 181, 170, 0.2) 12.3%, rgba(0, 0, 0, 0.5) 90.8%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.bxh-mv .img .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.5s;
+}
+
+.bxh-mv .img .overlay .container-content {
+  display: flex;
+  flex-direction: row;
+  height: 19%;
+}
+
+.bxh-mv .img .overlay .container-content .number {
+  width: 42px;
+  height: 42px;
+  background-color: #3590cb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bxh-mv .img .overlay .container-content .info {
+  flex-grow: 1;
+  padding-left: 5px;
+}
+
+.bxh-mv .img .overlay .play-button svg {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -7%;
+  margin-left: -7%;
+  opacity: 0;
+  transition: all 0.4s;
+  transform: scale(0.5);
+}
+
+.bxh-mv .img .overlay:hover .play-button svg {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.4s;
+}
+
+.bxh-mv .img .overlay:active .play-button svg {
+  transform: scale(0.5);
+  transition: all 0.2s;
+}
+
+.bxh-mv .img .overlay .container-content .info .title {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: white;
+}
+
+.bxh-mv .img .overlay:hover .container-content .info .title {
+  color: #3590cb;
+  transition: all 0.4s;
+}
+
+.bxh-mv .img .overlay:active .container-content .info .title {
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.bxh-mv .img .overlay .container-content .info .singer {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: capitalize;
+  font-size: 13px;
+  color: #cacaca;
+  margin-top: -5px;
+}
+
+/* bxh-mv-mini */
+.bxh-mv-mini {
+  padding: 22.5px 0;
+  border-top: 1px solid #DDD;
+  display: flex;
+  flex-direction: row;
+}
+
+.bxh-mv-mini .img {
+  background-image: url('https://picsum.photos/300/300');
+  height: 62px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.bxh-mv-mini .dut-con-mua-nay {
+  background-image: url('https://i.ytimg.com/vi/ytCe4NI0h3U/maxresdefault.jpg');
+}
+
+.bxh-mv-mini .ly-nhan-sau {
+  background-image: url('https://i.ytimg.com/vi/OMfajW2Hdq8/maxresdefault.jpg');
+}
+
+.bxh-mv-mini .ai-phi {
+  background-image: url('https://i.ytimg.com/vi/F5wdmupnPSg/maxresdefault.jpg');
+}
+
+.bxh-mv-mini .xuat-son {
+  background-image: url('https://i.ytimg.com/vi/7ZAY0M1bADU/maxresdefault.jpg');
+}
+
+.bxh-mv-mini .img .number {
+  font-size: 18px;
+  color: white;
+  padding-left: 5px;
+  padding-bottom: 1px;
+}
+
+.bxh-mv-mini .info {
+  padding: 2px 10px;
+}
+
+
+.bxh-mv-mini .img .play-button svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13%;
+  margin-left: -13%;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.5s;
+}
+
+.bxh-mv-mini .img:hover .play-button svg {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+.bxh-mv-mini .img:active .play-button svg {
+  transform: scale(0.5);
+  transition: all 0.2s;
+}
+
+.bxh-mv-mini .info .title {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: capitalize;
+  color: #333333;
+  font-size: 15px;
+}
+
+.bxh-mv-mini .info .title a:link {
+  color: #333333;
+  text-decoration: none;
+}
+
+.bxh-mv-mini .info .title a:visited {
+  color: #333333;
+}
+
+.bxh-mv-mini .info .title a:hover {
+  color: #3590cb;
+  transition: all 0.5s;
+}
+
+.bxh-mv-mini .info .title a:active {
+  color: #333333;
+  transition: all 0.2s;
+}
+
+.bxh-mv-mini .info .singer {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #333333;
+}
+
+.bxh-mv-mini .info .singer a:link {
+  color: #333333;
+  text-decoration: none;
+}
+
+.bxh-mv-mini .info .singer a:visited {
+  color: #333333;
+  text-decoration: none;
+}
+
+.bxh-mv-mini .info .singer a:hover {
+  color: #3590cb;
+  transition: all 0.5s;
+}
+
+.bxh-mv-mini .info .singer a:active {
+  color: #333333;
+  transition: all 0.2s;
+}
+
+.bxh-mv-mini .info .view-count {
+  padding-top: 1px;
+  color: #666666;
+  font-size: 10px;
+}
+
+/* footer */
+.footer {
+  margin-top: 15rem !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+/* edit font default bootrap*/
+.h6 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.text-muted {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container-top-singer .top-singer .name .top-singer-font {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}

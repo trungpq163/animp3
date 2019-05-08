@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.228 38.227">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #721799;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="back_1" data-name="back 1" transform="translate(-1268.386 -1465)">
+    <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-1" cx="19.114" cy="19.114" r="19.114" transform="translate(1268.386 1465)"/>
+    <path id="Path_50" data-name="Path 50" class="cls-2" d="M13924.635,1457.65l8.08-7.835,8.137,7.835" transform="translate(-12645.089 30.03)"/>
+  </g>
+</svg>
