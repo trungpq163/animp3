@@ -137,6 +137,13 @@ body {
 }
 
 /* fixed size album-square */
+@media (max-width: 475px) {
+  .album-square {
+    width: 130px;
+    height: 130px;
+  }
+}
+
 @media (max-width: 414px) {
   .album-square {
     width: 124px;
@@ -261,6 +268,13 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
+}
+
+@media (min-width: 1116px) and (max-width: 1349px) {
+  .mv-hot {
+    width: 520px;
+    height: 275px;
+  }
 }
 
 .ly-ca-phe-ben-canh-cua-so {
@@ -1469,4 +1483,10 @@ body {
 
 .container-top-singer .top-singer .name .top-singer-font {
   font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.edit-carousel li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
 }
